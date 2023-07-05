@@ -1,0 +1,16 @@
+config:
+  target: "http://localhost:4000"
+  phases:
+    - name: Preparacion
+      duration: 15
+      arrivalRate: 3
+      rampTo: 5
+    - name: Stress
+      duration: 30
+      arrivalRate: 10
+      rampTo: 5
+scenarios:
+  - name: Alumnos
+    flow:
+      - get:
+          url: "/alumnos"
