@@ -2,7 +2,7 @@
 
 ## Instalación
 
-Clonar repositorio: `git@github.com:NikolayCarrasco/iacc_back.git`
+Clonar repositorio: `https://github.com/NikolayCarrasco/iacc_back.git`
 
 Instalar dependecias: `npm i`
 
